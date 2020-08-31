@@ -1,0 +1,127 @@
+body {
+    margin: 20px;
+    background-color: midnightblue;
+}
+
+p {
+    text-indent: 30px;
+}
+
+h1 {
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+h2 {
+    background-color: mediumorchid;
+    color: white;
+}
+
+a {
+    color: limegreen;
+    text-decoration: none;
+}
+
+blockquote {
+    color: coral;
+}
+
+table, th, td {
+    border: 1px solid coral;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: coral;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+}
+
+td:hover {
+    background-color: bisque;
+}
+
+.main {
+    width: 950px;
+    opacity: 1;
+}
+
+
+/* country-id */
+#sydney {
+    background: url(img/sydney_2000.png) no-repeat right top;
+    background-size: 150px;
+}
+
+#athens {
+    background: url(img/athens_2004.jpg) no-repeat right top;
+    background-size: 150px;
+}
+
+#beijing {
+    background: url(img/beijing_2008.png) no-repeat right top;
+    background-size: 150px;
+}
+
+#london {
+    background: url(img/london_2012.png) no-repeat right top;
+    background-size: 150px;
+}
+
+#rio {
+    background: url(img/rio_2016.png) no-repeat right top;
+    background-size: 150px;
+}
+
+img {
+    width: 300px;
+    opacity: .5;
+    border-radius: 10px;
+}
+
+img:hover {
+    opacity: 1;
+}
+
+
+/* Form-Area */
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin: 10px 0;
+    background-color: lightgreen;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    pad: 10px;
+    border: none;
+    background-color: lightsalmon;
+    border-radius: 5px;
+}
+
+section {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: lightpink;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}

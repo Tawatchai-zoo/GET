@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            color: navy;
+        }
+
+        h1 {
+            color: firebrick;
+            font-size: 20pt;
+        }
+
+        input {
+            width: 100%;
+            padding: 20px;
+            margin: 10px 0;
+            border: 2px dotted darkblue;
+            border-radius: 10px;
+            background-color: steelblue;
+        }
+
+        select {
+            width: 100%;
+            border: none;
+            border-radius: 10px;
+            background-color: darkcyan;
+        }
+
+        textarea {
+            width: 100%;
+            height: 100px;
+            padding: 20px;
+            border: 2px solid indigo;
+            border-radius: 10px;
+            background-color: darkslateblue;
+        }
+
+        button {
+            background-color: brown;
+            color: white;
+            border: none;
+            padding: 15px;
+            width: 100px;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Guest Book</h1>
+
+    <form action="">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name"> <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="name"> <br>
+
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone"> <br>
+
+        <label for="sources">Sources:</label><br>
+        <select name="sources" id="sources">
+            <option value="website">Website</option>
+            <option value="tv">TV</option>
+            <option value="radio">Radio</option>
+            <option value="newspaper">Newspaper</option>
+        </select> <br>
+
+        <label for="comments">Comments:</label><br>
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea> <br>
+
+        <button type="submit" value="submit">Send</button>
+        <button type="reset" value="reset">Clear</button>
+    </form>
+    
+</body>
+</html>
